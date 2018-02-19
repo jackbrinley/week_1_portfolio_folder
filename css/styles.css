@@ -1,0 +1,144 @@
+/*i feel i was overly granular/specific/not elegant with my css*/
+
+body {
+	background-color: #eee;
+	font-color: black;
+	font: helvetica;
+}
+
+.hr_big {
+	width: 100%;
+	background-color: black;
+	height: 3px;
+}
+
+.hr_small {
+	width: 80%;
+}
+
+/*following 10 lines for navigation section*/
+
+/*how to override default of hyperlinks being blue? */
+nav{
+	margin: 0 auto;
+	text-align: center;
+}
+
+ul {margin: 0 auto;
+	text-align:center;}
+
+/*the h1 title and navigation list aren't aligned, how can i do this?*/
+
+
+.navigation_lists li{
+			display: inline;
+			padding:0 5px;
+			font-size:17px;
+			font-weight: bold;
+}
+
+.navigation_lists li:not(:last-child) {
+						border-right-style: solid;
+						border-color: black;
+						border-width: 1px;
+}
+
+h1 { 
+	font-size:30px;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+h3 {
+	text-transform: uppercase;
+
+}
+
+table {
+		margin-left: 10%;
+		margin-right: 10%;
+		text-align: justify;
+}
+
+/*.about_me_img_table {
+					height:auto;
+					width:20%;
+					margin:0;
+					border:0;
+					border-style: solid;
+					border-color: black;
+					padding:0;
+}*/
+
+
+.about_me_text {
+				margin-left: 10%;
+				margin-right: 10%;
+				text-align: justify;
+}
+
+.about_me_text h2 {
+			font-size:17px;
+			font-weight: bold;
+			text-transform: uppercase;
+
+}
+
+/*i had trouble aligning the picture in a nice way, i would like to have the text comparable to the example*/
+.about_me_text p, img {display:inline;}
+
+
+
+.about_me_text p {
+			font-size:14px;
+			margin-right: 10%;
+}
+
+.about_me_picture {
+					width:100px;
+					height: auto;
+					margin:0;
+					border:0;
+					border-style: solid;
+					border-color: black;
+					padding-left:10px;
+}
+
+footer ul {
+	margin: 30px auto;
+}
+
+/*portfolio section*/
+
+.experience {
+				margin-left: 10%;
+				margin-right: 10%;
+				text-align: justify;
+}
+
+.portfolio {
+				margin-left: 10%;
+				margin-right: 10%;
+				text-align: justify;
+}
+.portfolio_title {
+				font-size:16px;
+				font-weight: bold;
+				font-style: italic;
+}
+
+h4 {
+	font-weight: normal;
+	font-size:14px;
+}
+.portfolio_timespan {
+			font-size:14px;
+			font-weight: bold;
+}
+
+.portfolio img {
+	width: 100%;
+	height: auto:;
+}
+/*nb from qs at class worth having max and min widths using <di class="container"></div> 
+where css .container {width: 1000px;}*/
